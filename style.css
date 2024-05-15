@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: bisque;
+}
+/*style des lien et des svgs */
+header img{
+    height: 50px ;
+    width: 50px ;
+}
+.lien{
+    width: 100%;
+    text-align: center;
+
+}
+.H18{
+    text-align: center;
+    color:rgb(6, 163, 148);
+    top:-50px;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 53px;
+    color: black;
+}
+header nav a:hover{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.menue-bar{
+    float: left;
+
+}
+.userbar{
+    float:right;
+}
+header input{
+    height: 40px;
+    width: 440px;
+    min-width: 120px;
+    border-radius: 10px;
+    border-color: none transparent;
+}
+header p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: green;
+}
+table img{
+    width: 130px;
+    border-radius: 30px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    border: 5px solid black;
+    padding: 5px;
+}
+.conteneur_stat{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*element d'une carte pour film */
+.acceuil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.carte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    border-radius:20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    margin: 100px;
+
+}
+.photo img{
+    width: 380px;
+    height: 200px; 
+    <img src="photo/logo-photo.jpg.jfif" alt="menue"> 
+
+    
+}
+.btn_carte {
+    position: relative;
+    top: -10px;
+    border-radius: 6px;
+    border: transparent ;
+}
+.nom_produit{
+    background-color: antiquewhite;
+    border-radius: 0 0 20px 20px;
+}
+/*fin de l'element*/
+/*s'incrire*/
+.lilian {
+    background-color: antiquewhite;
+    height: 480px;
+    display: flex;
+    width: 384px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    background: transparent;
+}
+.lilian input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    align-content: center;
+    padding: 15px ;
+}
+
+h1{
+    text-transform: uppercase;
+    top: -40px;
+    position: relative;
+}
+.lilianb{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background: bisque 0.5;
+    position: relative;
+    top: 10px;
+}
+.lilian a{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.lilian p a{
+    font-size: 12px;
+    color: blue;
+    
+}
+.lilian p{
+    position: relative;
+    top: 40px;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width: 821px) {
+    header input{
+        width: 160px;
+
+    }
+    .lien{
+        display: flex;
+        justify-content: center;
+    }
+    header nav{
+        display: flex;
+        justify-content: center;
+    }
+    header nav a{
+        text-align: left;
+        font-size: 30px;
+        padding:0  30px;
+        margin: 0;
+        text-align: center;
+
+    }
+    
+}
+@media screen and (max-width: 545px){
+    header img{
+        width: 20px;
+        height: 20px;
+        
+    }
+    header p{
+        font-size: 20px;
+    }
+    header input{
+        height: 30px;
+        width: 60px;
+    }
+    header nav a{
+        padding: 0 20px;
+        font-size: 20px;
+  
+    }
+}
